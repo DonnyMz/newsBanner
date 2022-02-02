@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  position: relative;
+  background-color: rgb(10, 10, 10);
+  height: 21vh;
+  border-bottom: 2px solid rgb(248, 207, 70);
+}
+
+.logo,
+.login {
+  position: absolute;
+  top: 10px;
+}
+.logo {
+  background-color: rgb(43, 109, 185);
+  width: 40px;
+  height: 40px;
+  left: 20px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.logo:hover {
+  border-radius: 0;
+}
+a {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+}
+.logo h1 {
+  margin: 2px 0 0 7px;
+}
+.login {
+  left: 93%;
+}
+.login h3 {
+  margin: 2px 0 0 6px;
+  color: aliceblue;
+}
+.btn {
+  background-color: rgb(43, 109, 185);
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.btn:hover {
+  border-radius: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 20vh;
+}
+
+nav .weather {
+  display: flex;
+  padding-right: 380px;
+}
+nav .weather img {
+  margin-left: 10px;
+}
+nav .date {
+  padding-left: 340px;
+  margin-right: 20px;
+}
+nav h1 {
+  font-size: 50px;
+  margin-left: 80px;
+  letter-spacing: 10px;
+}
+.viewsMyOwn {
+  border-top: 1px solid #000000;
+  margin: -20px 0 0 0;
+}
+.viewsMyOwn ul {
+  display: flex;
+  margin: 0 0 0 10%;
+}
+.viewsMyOwn ul li {
+  margin-left: 50px;
+}
+.banner .bar {
+  position: inherit;
+  display: flex;
+  left: 41%;
+  top: -40px;
+}
+.bar div {
+  background-color: rgb(10, 10, 10);
+  width: 100px;
+  height: 2px;
+  margin-top: 7px;
+}
+.categories ul {
+  display: flex;
+  margin-left: 50px;
+  list-style: none;
+}
+.categories ul li {
+  padding-left: 1rem;
+  margin-bottom: 5px;
+}
+.categories .cat_line,
+.categories .cat_line1 {
+  background-color: rgb(219, 39, 39);
+  width: 95%;
+  height: 1px;
+  margin-left: 30px;
+}
+.categories .cat_line1 {
+  margin-top: 3px;
+}
